@@ -32,7 +32,30 @@
             font-size: 1.5rem;
             color: var(--bs-dark);
         }
+        @media screen and (max-width: 600px) {
+            .wrapper {
+                width: 90%;
+                height: fit-content;
+            }
+            figure{
+                width: fit-content;
+                height: fit-content;
+            }
+            #text {
+                font-size: 1.5rem;
+            }
+            #author {
+                font-size: 1.5rem;
+            }
+            .buttons {
+                display: flex;
+                flex-direction: column;
+            }
+            .btn {
+                margin: 0.5rem;
+            }
 
+        }
 
     </style>
 </head>
